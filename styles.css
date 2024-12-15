@@ -277,14 +277,27 @@ s
     }
 
     .additional-boxes {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
+        display: flex; /* Flexbox düzeni */
+        justify-content: center; /* Yatayda ortala */
+        align-items: stretch; /* Kutuları eşit boyda uzat */
+        gap: 10px; /* Kutular arası boşluk */
     }
 
     .small-box {
-        width: 85%;
-        height: auto;
+        flex: 1; /* Esnek yapı, eşit genişlik */
+        max-width: 30%; /* Kutular 3 sütun düzeninde */
+        height: auto; /* İçeriğe göre otomatik */
+        display: flex; /* İçeriği hizalamak için flex ekle */
+        flex-direction: column; /* İçeriği dikey sıralar */
+        justify-content: space-between; /* İçerikleri dikeyde eşit hizala */
+        text-align: center; /* Metinleri ortala */
+        padding: 10px; /* İç boşluk */
+        box-sizing: border-box; /* Padding ve border dahil genişlik */
+    }
+
+    .small-box__btn {
+        margin-top: auto; /* Butonu en alta sabitle */
+        font-size: 0.8rem; /* Buton boyutunu ayarla */
     }
 }
 
