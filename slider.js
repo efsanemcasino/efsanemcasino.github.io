@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const bannerSection = document.querySelector(".banner-section");
     const images = [
-        { src: "img/banner/banner1.png", link: "https://betebak.ws/OrTCy" },
-        { src: "img/banner/banner2.png", link: "https://betebak.ws/OrTCy" },
-        { src: "img/banner/banner3.png", link: "https://betebak.ws/OrTCy" }
+        { src: "img/banner/banner1.png", link: "http://grbetsaffiliate1.com/links/?btag=1659706" },
+        { src: "img/banner/banner2.png", link: "http://grbetsaffiliate1.com/links/?btag=1659706" },
+        { src: "img/banner/banner3.png", link: "http://grbetsaffiliate1.com/links/?btag=1659706" }
     ];
     let currentIndex = 0;
     
